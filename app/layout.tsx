@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Black_Han_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Black_Han_Sans({ subsets: ['latin'], weight: ['400']})
 
 export const metadata: Metadata = {
   title: 'Create Next App',

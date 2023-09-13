@@ -1,9 +1,9 @@
+import TopNav from "@/components/TopNav"
+
 const Main = () => {
     return(
         <>
-        <div>
-            123
-        </div>
+            <TopNav />
         </>
     )
 }
