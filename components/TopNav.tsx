@@ -8,7 +8,7 @@ const TopNav = () => {
                     <BsSunFill size={20}/>
                 </div>
                 <div>
-                    
+                    유튜브 제목추천기
                 </div>
                 <div>
                     <BsList size={25} />
