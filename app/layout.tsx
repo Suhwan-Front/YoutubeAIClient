@@ -2,10 +2,10 @@
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Black_Han_Sans } from 'next/font/google'
 import { RecoilRoot } from 'recoil'
+import { Inter } from 'next/font/google'
 
-const inter = Black_Han_Sans({ subsets: ['latin'], weight: ['400']})
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
